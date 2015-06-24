@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+  <title>Base Projecto</title>
+  <link rel="stylesheet" href="css/materialize.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<div class="navbar-fixed">
+		<nav>
+			<div class="nav-wrapper">
+				<a href="#" class="brand-logo"><img class="responsive-img"src="img/logo.png"></a>
+				<a href="#" data-activates="mobile" class="button-collapse">
+			    	<i class="mdi-navigation-menu"></i>
+			    </a>
+				<ul class="right hide-on-med-and-down">
+					<li><a href="#registro" >Registro</a></li>
+					<li><a href="#seccion1">Seccion 1</a></li>
+					<li><a href="#seccion2">Seccion 2</a></li>
+				</ul>
+				<ul id="mobile" class="side-nav">
+					<li><a href="#registro" >Registro</a></li>
+					<li><a href="#seccion1">Seccion 1</a></li>
+					<li><a href="#seccion2">Seccion 2</a></li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+	<div>
+	<div class=" fondo responsive-img">
+		<div class="container">
+		</div>
+	</div>
+		<div id="registro" class="registro" ><!--INICIO:registro-->
+			<div class="container">
+			<div class="titulo">
+				<h3>HISTORIA CLÍNICA PERINATAL</h3>
+			</div>
+				<div class="row"><!--INICIO:row-->
+    <form class="col s12">
+      <div class="row"><!--INICIO:row-->
+        <div class="input-field col s6">
+          <input type="text" class="validate">
+          <label for="icon_prefix">Nombre y apellido</label>
+        </div>
+        <div class="input-field col s6">
+ 
+          <input id="icon_telephone" type="tel" class="validate">
+          <label for="icon_telephone">Teléfono</label>
+        </div>
+        <div class="input-field col s6">
+          
+          <input id="icon_telephone" type="tel" class="validate">
+          <label for="icon_telephone">Dirección</label>
+        </div>
+          <div class="input-field col s6">
+          <input  type="tel" class="validate">
+          <label for="icon_telephone">Fecha de Nacimiento</label>
+        </div>
+         <div class="input-field col s6">
+		     	<input id="mdi-action-account-balance-wallet" type="tel" class="validate">
+		      	<label for="icon_telephone">DNI</label>
+	        </div>
+          <div class="input-field col s6">
+          <input  type="tel" class="validate">
+          <label for="icon_telephone">Étnia</label>
+        </div>
+          <div class="input-field col s6">
+          <input  type="tel" class="validate">
+          <label for="icon_telephone">Estudios</label>
+        </div>
+          <div class="input-field col s6">
+          <input id="icon_telephone" type="tel" class="validate">
+          <label for="icon_telephone">Estado civil</label>
+        </div>
+        <div class="row">
+		    <form class="col s12">
+		        <div class="input-field col s6">
+		          <textarea id="textarea1" class="materialize-textarea"></textarea>
+		          <label for="textarea1">Lugar del control prenatal</label>
+		        </div>
+		        <div class="input-field col s6">
+		          <textarea id="textarea1" class="materialize-textarea"></textarea>
+		          <label for="textarea1">Lugar nacimiento/aborto</label>
+		        </div>
+		    </form>
+		  </div>
+      <div class="input-field col s6">
+   			<form action="#">
+   			<p>Estado civil</p>
+    	<p>
+	      <input name="group0" type="radio" id="test0" />
+	      <label for="tesis0">Soltera</label>
+	    </p>
+	    <p>
+	      <input name="group0" type="radio" id="test1" />
+	      <label for="test1">Casada</label>
+	    </p>
+	    <p>
+	      <input name="group0" type="radio" id="test2"  />
+	      <label for="test2">Unión estable</label>
+	    </p>
+	     <p>
+	       <input name="group0" type="radio" id="test3"/>
+	       <label for="test3">Otro</label>
+	      </p>
+	  </form>
+	   </div>
+     <div class="row">
+		   <form action="#">
+		   <p>Antecedentes familiares</p>
+	    <p>
+	      <input type="checkbox" class="filled-in" id="tes1"/>
+	      <label for="tes1">TBC</label>
+	    </p>
+	      <p>
+      <input type="checkbox" id="tes2" />
+      <label for="tes2">Diabetes</label>
+    </p>
+	    <p>
+	      <input type="checkbox" class="filled-in" id="tes3"/>
+	      <label for="tes3">Hipertensión</label>
+	    </p>
+	    <p>
+	      <input type="checkbox" class="filled-in" id="tes4"/>
+	      <label for="tes4">Preclamsia</label>
+	    </p>
+	       <p>
+	      <input type="checkbox" class="filled-in" id="tes5"/>
+	      <label for="tes5">Eclamsia</label>
+	    </p>
+	      <p>
+	      <input type="checkbox" class="filled-in" id="tes6"/>
+	      <label for="tes6">Otra enfermedad de gravedad</label>
+	    </p>
+	  </form>
+	   <!---->
+	   <div class="row">
+	   <div class=" input-field col s6">
+	   	<form action="#">
+		   <p>Antecedentes personales</p>
+	    <p>
+	      <input type="checkbox" class="filled-in" id="t1"/>
+	      <label for="t1">Cirugía genio-urinaria</label>
+	    </p>
+	      <p>
+      <input type="checkbox" id="t2" />
+      <label for="t2">Infertilidad</label>
+    </p>
+	    <p>
+	      <input type="checkbox" class="filled-in" id="t3"/>
+	      <label for="t3">Cardiopatía</label>
+	    </p>
+	    <p>
+	      <input type="checkbox" class="filled-in" id="t4"/>
+	      <label for="t4">Nefropatía</label>
+	    </p>
+	       <p>
+	      <input type="checkbox" class="filled-in" id="t5"/>
+	      <label for="t5">Violencia</label>
+	    </p>
+	      <p>
+	      <input type="checkbox" class="filled-in" id="t6"/>
+	      <label for="t6">Otra enfermedad de gravedad</label>
+	    </p>
+	  </form>
+	  </div>
+			<div class="input-field col s6">
+	   		<form action="#">
+	   			<p>Último previo</p>
+	    	<p>
+		      <input name="group3" type="radio" id="test12" />
+		      <label for="test12">n/c</label>
+		    </p>
+		    <p>
+		      <input name="group3" type="radio" id="test13" />
+		      <label for="test13"> < 2500gr </label>
+		    </p>
+		    <p>
+		      <input name="group3" type="radio" id="test14" />
+		      <label for="test14">Normal</label>
+		    </p>
+		     <p>
+		      <input name="group3" type="radio" id="test15" />
+		      <label for="test15">4000gr</label>
+		    </p>
+		   </form>
+	    </div>
+	    </div><!--END:row-->
+  		</div>
+	    <div class="input-field col s6">
+   			<form action="#">
+   				<p>Antedecentes gemelares</p>
+    	<p>
+	      <input name="group4" type="radio" id="test16" />
+	      <label for="test16">Si</label>
+	    </p>
+	    <p>
+	      <input name="group4" type="radio" id="test17" />
+	      <label for="test17">No</label>
+	 	</p>
+	    </form>
+	    </div>
+	    <div class="input-field col s6">
+   		<form action="#">
+   			<p>Gestas previas</p>
+    	<p>
+	      <input name="group5" type="radio" id="test18" />
+	      <label for="test18">Si</label>
+	    </p>
+	    <p>
+	      <input name="group5" type="radio" id="test19" />
+	      <label for="test19">No</label>
+	 	</p>
+	 	 <p>
+	      <input name="group5" type="radio" id="test20" />
+	      <label for="test20">Embarazo ectópico</label>
+	 	</p>
+	    </form>
+	    </div>
+	       <div class="input-field col s6">
+   		<form action="#">
+   			<p>Abortos</p>
+    	<p>
+	      <input name="group6" type="radio" id="test21" />
+	      <label for="test21">Si</label>
+	    </p>
+	    <p>
+	      <input name="group6" type="radio" id="test22" />
+	      <label for="test22">No</label>
+	 	</p>
+	    </form>
+	    </div>
+	     <div class="input-field col s6">
+   		<form action="#">
+   			<p>Partos</p>
+    	<p>
+	      <input name="group7" type="radio" id="test23" />
+	      <label for="test23">Vaginales</label>
+	    </p>
+	    <p>
+	      <input name="group7" type="radio" id="test24" />
+	      <label for="test24">Cesáreas</label>
+	 	</p>
+	    </form>
+	    </div>
+	     <div class="input-field col s6">
+   		<form action="#">
+   			<p>Nacidos</p>
+    	<p>
+	      <input name="group8" type="radio" id="test25" />
+	      <label for="test25">Vivos</label>
+	    </p>
+	    <p>
+	      <input name="group8" type="radio" id="test26" />
+	      <label for="test26">Muertos 1ra semana</label>
+	 	</p>
+	 	  <p>
+	      <input name="group8" type="radio" id="test27" />
+	      <label for="test27">Muertos luego de la primera semana</label>
+	 	</p>
+	    </form>
+	    </div>
+	    <div class="input-field col s6">
+   			<form action="#">
+   				<p>Hijos vivos</p>
+    	<p>
+	      <input name="group9" type="radio" id="test28" />
+	      <label for="test28">1</label>
+	    </p>
+	    <p>
+	      <input name="group9" type="radio" id="test29" />
+	      <label for="test29">2</label>
+	    </p>
+	    <p>
+	      <input name="group9" type="radio" id="test30" />
+	      <label for="test30">3</label>
+	    </p>
+	     <p>
+	      <input name="group9" type="radio" id="test31" />
+	      <label for="test31">4</label>
+	    </p>
+	    </form>
+	    </div>
+	    <div class="calendario">
+	    	<p>Fin de embarazo anterior</p>
+	     		<input type="date" class="datepicker">
+       </div>
+       <div class="input-field col s6">
+   		<form action="#">
+	    	<p>Embarazo planeado</p>
+	      <p>
+		    	<input name="group10" type="radio" id="test32" />
+		      	<label for="test32">Si</label>
+		    </p>
+		     <p>
+		      <input name="group10" type="radio" id="test33" />
+		      	<label for="test33">No</label>
+		    </p>
+	    </form>
+	   </div>
+	    <div class="input-field col s6">
+   		<form action="#">
+	   			<p>Fracaso de anticonceptivo</p>
+	    	<p>
+		      <input name="grupo9" type="radio" id="test34" />
+		      <label for="test34">No usaba</label>
+		    </p>
+		    <p>
+		     <input name="grupo9" type="radio" id="test35" />
+		      <label for="test35">Barrera</label>
+		    </p>
+		    <p>
+		     <input name="grupo9" type="radio" id="test36" />
+		      <label for="test36">DIU</label>
+		    </p>
+		    <p>
+		     <input name="grupo9" type="radio" id="test37" />
+		      <label for="test37">hormonal</label>
+		 	</p>
+		 	  <p>
+		     <input name="grupo9" type="radio" id="test38" />
+		      <label for="test38">Emergencia</label>
+		 	</p>
+		 	<p>
+		    <input name="grupo9" type="radio" id="test39" />
+		     <label for="test39">Natural</label>
+		    </p>
+	    </form>
+	    </div>
+	    <div class="row">
+      <form class="col s12">
+        <div class="row">
+          <div class="input-field col s6">
+            <input id="input_text" type="text">
+            	<label for="input_text">Gestación actual</label>
+          </div>
+        	<div class="input-field col s6">
+            	<input id="input_text" type="text">
+            <label for="input_text">Gestación anterior</label>
+          </div>
+       	</div>
+      </form>
+    </div>
+    <div class="fpm">
+    <div class="row">
+    <form class="col m12">
+	    <div class="col s6">
+	    	<p>FPP</p>
+	    	<input type="date" class="datepicker">
+	    </div>
+	     <div class="col s6">
+	     		<p>FUM</p>
+	    	<input type="date" class="datepicker">
+	     </div>
+    	</form>
+		</div>
+    </div>
+    <div class="row">
+    <div class="input-field col s6">
+   		<form action="#">
+	   		<p>Fuma</p>
+	    	<p>
+		      <input name="group10" type="radio" id="test40" />
+		      	<label for="test40">Activo</label>
+		    </p>
+		    <p>
+		      <input name="group10" type="radio" id="test41" />
+		      	<label for="test41">Pasivo</label>
+		    </p>
+		    <p>
+		    	<input name="group10" type="radio" id="test42" />
+		      <label for="test42">Drogas</label>
+		    </p>
+		     <p>
+		     <input name="group10" type="radio" id="test43" />
+		      <label for="test43">Alcohol</label>
+		    </p>
+		    <p>
+		     <input name="group10" type="radio" id="test44" />
+		      	<label for="test44">Violencia</label>
+		    </p>
+	    </form>
+	    </div>
+	     <div class="input-field col s6">
+   			<form action="#">
+	   			<p>Antirrubiola</p>
+	    	<p>
+		     <input name="group10" type="radio" id="test40" />
+		      <label for="test40">Previa</label>
+		    </p>
+		    <p>
+		     <input name="group10" type="radio" id="test41" />
+		      <label for="test41">Embarazo</label>
+		    </p>
+		    <p>
+		     <input name="group10" type="radio" id="test42" />
+		      <label for="test42">No sabe</label>
+		    </p>
+		     <p>
+		     	<input name="group10" type="radio" id="test43" />
+		      	<label for="test43">No</label>
+		    </p>
+	    </form>
+	    </div>
+	     </div><!--END:row-->
+	    	<div class="row"><!--INICIO:row-->
+	    	<div class="input-field col s6">
+   			<form action="#">
+		   		<p>Antitetánica</p>
+		    	<p>
+			     	<input name="group11" type="radio" id="test44" />
+			      	<label for="test44">Vigente</label>
+			   </p>
+			   <p>
+			     <input name="group11" type="radio" id="test45" />
+			      	<label for="test45">No vigente</label>
+			   </p>
+			   <p>
+			    <input name="group11" type="radio" id="test46" />
+			     	<label for="test46">Primera dosis</label>
+			    </p>
+			     <p>
+			     <input name="group11" type="radio" id="test47" />
+			     	<label for="test47">Segunda dosis</label>
+			   </p>
+	    </form>
+	    </div>
+	     <div class="input-field col s6">
+   			<form action="#">
+   				<p>Ex normal</p>
+    	<p>
+	      <input name="group11" type="radio" id="test48" />
+	      <label for="test48">Odont.</label>
+	    </p>
+	    <p>
+	      <input name="group11" type="radio" id="test49" />
+	      <label for="test49">Mamas</label>
+	    </p>
+	   </form>
+	   </div>
+	    </div><!--END:row-->
+	    <div class="row">
+	    <div class="input-field col s6">
+   		<form action="#">
+   			<p>Cervix</p>
+    	<p>
+	     <input name="group11" type="radio" id="test50" />
+	     	<label for="test50">Insp. Visual</label>
+	    </p>
+	    <p>
+	     <input name="group11" type="radio" id="test51" />
+	      <label for="test51">PAP</label>
+	    </p>
+	     <p>
+	     	<input name="group11" type="radio" id="test52" />
+	      	<label for="test52">COLP</label>
+	    	</p>
+	    </form>
+	    </div>
+	       <form class="col s6">
+        	<div class="row md 12">
+          <div class="input-field col s6">
+           <input id="input_text" type="text">
+            <label for="input_text">Grupo sanguíneo</label>
+          </div>
+        </div>
+      </form>
+	    </div><!--END:row-->
+	    <div class="row md 12"><!--INICIO:row-->
+		    <div class="input-field col s6">
+	   		<form action="#">
+		   			<p>VIH</p>
+		    	<p>
+			      <input name="group12" type="radio" id="test53" />
+			      <label for="test53"> < 20 sem </label>
+			    </p>
+			    <p>
+			     <input name="group12" type="radio" id="test54" />
+			      <label for="test54"> > 20 sem </label>
+			    </p>
+		    </form>
+		    </div>
+	    	<div class="input-field col s6">
+   		<form action="#">
+	   			<p>TOXOPLAXMOSIS</p>
+	    	<p>
+		      <input name="group13" type="radio" id="test55" />
+		      <label for="test55"> < 20 sem </label>
+		    </p>
+		    <p>
+		     <input name="group13" type="radio" id="test56" />
+		      <label for="test56"> > 20 sem </label>
+		    </p>
+		     <p>
+		     <input name="group13" type="radio" id="test56" />
+		      <label for="test56"> 1 consulta Igm </label>
+		    </p>
+	    </form>
+	    </div>
+	     </div><!--END:row-->
+	      <div class="row md 12"><!--INICIO:row-->
+		    <div class="input-field col s6">
+	   		<form action="#">
+		   			<p>Sifilis</p>
+		    	<p>
+			      <input name="group13" type="radio" id="test57" />
+			      <label for="test57">No treponémica</label>
+			    </p>
+			    <p>
+			     <input name="group13" type="radio" id="test58" />
+			      <label for="test58">Treponémica</label>
+			    </p>
+		    </form>
+		    </div>
+	    	<div class="input-field col s6">
+   		<form action="#">
+	   			<p>Chagas</p>
+	    	<p>
+		      <input name="group14" type="radio" id="test59" />
+		      <label for="test59">Positivo</label>
+		    </p>
+		    <p>
+		     <input name="group14" type="radio" id="test60" />
+		      <label for="test60">Negativo</label>
+		    </p>
+	    </form>
+	    </div>
+	     </div><!--END:row-->
+	     <div class="row md 12"><!--INICIO:row-->
+		    <div class="input-field col s6">
+	   		<form action="#">
+		   			<p>Paludismo/Malaria</p>
+		    	<p>
+			      <input name="group15" type="radio" id="test61" />
+			      <label for="test61">Positivo</label>
+			    </p>
+			    <p>
+			     <input name="group15" type="radio" id="test62" />
+			      <label for="test62">Negativo</label>
+			    </p>
+			       <p>
+			     <input name="group15" type="radio" id="test63" />
+			      <label for="test63">No se hizo</label>
+			    </p>
+		    </form>
+		    </div>
+	    	<div class="input-field col s6">
+   		<form action="#">
+	   			<p>Bacteriuria</p>
+	    	<p>
+		      <input name="group16" type="radio" id="test64" />
+		      <label for="test64">Normal</label>
+		    </p>
+		    <p>
+		     <input name="group16" type="radio" id="test65" />
+		      <label for="test65">Anormal</label>
+		    </p>
+		      <p>
+		     <input name="group16" type="radio" id="test66" />
+		      <label for="test66">No se hizo</label>
+		    </p>
+	    </form>
+	    </div>
+	     </div><!--END:row-->
+	     <!---->
+	       <div class="row md 12"><!--INICIO:row-->
+		    <div class="input-field col s6">
+	   		<form action="#">
+		   			<p>Preparación para el parto</p>
+		    	<p>
+			      <input name="group17" type="radio" id="test67" />
+			      <label for="test67">Si</label>
+			    </p>
+			    <p>
+			     <input name="group17" type="radio" id="test68" />
+			      <label for="test68">No</label>
+			    </p>
+		    </form>
+		    </div>
+	    	<div class="input-field col s6">
+   		<form action="#">
+	   			<p>Consejería Lactancia Materna</p>
+	    	<p>
+		      <input name="group18" type="radio" id="test69" />
+		      <label for="test69">Si</label>
+		    </p>
+		    <p>
+		     <input name="group18" type="radio" id="test70" />
+		      <label for="test70">No</label>
+		    </p>
+	    </form>
+	    </div>
+	     </div><!--END:row-->
+
+	     
+				<div class="titulo">
+			<h3 class="text-center">Diagnóstico presuntivo derivado de atención</h3>
+			</div>
+			<div class="row"><!--INICIO:row-->
+			<div class="col s6">
+		<form action="#">
+		
+    <p>
+      <input type="checkbox" id="te1" />
+      <label for="te1">Aro:Adolescente</label>
+    </p>
+    <p>
+      <input type="checkbox" id="te2"  />
+      <label for="te2">Aro: Años a</label>
+    </p>
+    <p>
+      <input type="checkbox"  id="te3"  />
+      <label for="te3">Primigesta de 30 semanas por fur</label>
+    </p>
+    <p>
+      <input type="checkbox" id="te4"  />
+      <label for="te4">Multigesta de 36 semanas por ecoito</label>
+    </p>
+  </form>
+  		<form action="#">
+    <p>
+      <input type="checkbox" id="te1" />
+      <label for="te1">Aro:Adolescente</label>
+    </p>
+    <p>
+      <input type="checkbox" id="te2"  />
+      <label for="te2">Aro: Años a</label>
+    </p>
+    <p>
+      <input type="checkbox"  id="te3"  />
+      <label for="te3">Primigesta de 30 semanas por fur</label>
+    </p>
+    <p>
+      <input type="checkbox" id="te4"  />
+      <label for="te4">Multigesta de 36 semanas por ecoito</label>
+    </p>
+  </form>
+  </div><!--END:col-->
+  			<div class="col s6">
+  			<h5>Número de veces cesareada</h5>
+		 <label>Browser Select</label>
+    <select class="browser-default">
+      <option value="" disabled selected>Elige una opción</option>
+      <option value="1">1 vez</option>
+      <option value="2">2 vez</option>
+      <option value="3">3 vez</option>
+    </select>	
+  </div><!--END:col-->
+  </div><!--END:row-->
+  <div class="row">
+  	<div class="col s6">
+  		  			<h5>Periodo intergenésico</h5>
+		 <label>Browser Select</label>
+    <select class="browser-default">
+      <option value="" disabled selected>Elige una opción</option>
+      <option value="1">Corto</option>
+      <option value="2">Largo</option>
+    </select>	
+  	</div>
+  	<div class="col s6">
+  		<h5>Anemia</h5>
+		 <label>Browser Select</label>
+    <select class="browser-default">
+      <option value="" disabled selected>Elige una opción</option>
+      <option value="1">leve</option>
+      <option value="2">moderna</option>
+      <option value="3">severa</option>
+    </select>	
+  	</div>
+  </div>
+			<!---->
+	  </div>
+	  </form>
+		</div><!--END:registro-->
+	   <!--END:datos obstetricos-->
+		<div class="row"><!--INICIO:row-->
+		<div class="titulo">
+			<h3 class="text-center">Subir registro</h3>
+		</div>
+			<div class="col s6">
+				<div class="content">
+				<form action="subearchivo.php" method="post" enctype="multipart/form-data"> 
+			   	<input name="userfile" type="file"> 
+			   <br> 
+			 <input type="submit" value="Enviar"> 
+			</form>
+				<img class="responsive-img"src="img/camara.png">
+				</div>
+			</div>
+			<div class="col s6">
+				<div class="content">
+				 <form action="subearchivo.php" method="post" enctype="multipart/form-data"> 
+			   		<input name="userfile" type="file"> 
+			   	<br> 
+			   	<input type="submit" value="Enviar"> 
+				</form>
+					<img class="responsive-img" src="img/camara.png">
+				</div>
+			</div>
+		</div><!--END:row-->
+			<div class="row"><!--INICIO:row-->
+			<div class="col s6">
+			<div class="content">
+				<img class="responsive-img"src="img/baby.png">
+			</div>
+			</div>
+			<div class="col s6">
+				<div class="content">
+					<img class="responsive-img" src="img/mama.png">
+				</div>
+			
+			</div>
+		</div><!--END:row-->
+	</div>
+     <footer class="page-footer"><!--INICIO:footer-->
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Footer Content</h5>
+                <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2014 Copyright Text
+            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+          </div>
+        </footer><!--END:footer-->
+ <script type="text/javascript" src="js/jquery.js"></script>
+ <script src="js/materialize.js"></script> 
+ <script src="http://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry"></script>
+ <script type="text/javascript" src="js/main.js"></script>
+ <script>
+		$(function() {
+			  $('a[href*=#]:not([href=#])').click(function() {
+				if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+				  var target = $(this.hash);
+				  target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+				  if (target.length) {
+					$('html,body').animate({
+					  scrollTop: target.offset().top - 50
+					} , 1000);
+					return false;
+				  }
+				}
+			  });
+			});  
+	</script> 
+  </body>
+</html>
